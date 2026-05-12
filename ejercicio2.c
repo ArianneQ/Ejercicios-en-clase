@@ -6,6 +6,7 @@ int main() {
     //implementacion de puntero
     char *ptr;
     ptr= &vocales[0];
+    *(ptr+3)='x';
 
     // Imprimir los elementos del arreglo
     for (int i = 0; i < 5; i++) {
