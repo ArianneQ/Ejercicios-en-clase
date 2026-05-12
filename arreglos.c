@@ -10,9 +10,9 @@ int main() {
     // Imprimir los elementos del arreglo
     for (int i = 0; i < 5; i++) {
 
-        printf("Elemento %d: %d\n", i, arreglo[i]);
-        ptr= &arreglo[i];
-        printf(" %d", *ptr);
+        printf("arreglo[%d]: %d\t", i, arreglo[i]);
+        //ptr= &arreglo[i];
+        printf(" %d\n", *(ptr+i));
         
     }
 
